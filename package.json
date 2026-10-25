@@ -1,0 +1,23 @@
+{
+  "name": "sh-protection-shield-v6",
+  "version": "6.3.1",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js",
+    "smoke": "node src/smoke-check.js",
+    "voice-check": "node src/voice-check.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "discord.js": "^14.24.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "@discordjs/voice": "^0.18.0",
+    "play-dl": "^1.9.7",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.1.1"
+  }
+}
